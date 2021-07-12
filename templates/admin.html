@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+    {% block content %}
+    <h1>{%for i in text%}
+            {{text[i]}}
+        {% endfor %}
+    </h1>
+    {% endblock %}
